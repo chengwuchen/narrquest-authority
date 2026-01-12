@@ -10,11 +10,7 @@ corpus:
     The full NarrQuest corpus (books + journal articles) is canonically anchored via the Zenodo community.
 
 origin:
-  genesis_tone:
-    title: "你已擊破十面金牌"
-    status: sealed
-    note: >
-      Origin tone artifact. Existence is acknowledged; content is not subject to analysis, citation, or decomposition.
+  genesis_ref: https://github.com/chengwuchen/narrquest-authority/blob/main/NRA/genesis.yaml
 
 tone_constellations:
 
