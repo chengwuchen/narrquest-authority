@@ -1,0 +1,16 @@
+nra:
+  name: NarrQuest Reference Authority
+  status: canonical-registry
+  version: 1.0
+
+anchors:
+  authority_root: https://narrquest.wordpress.com/authority
+  journal_of_record: https://narrquest.wordpress.com
+  zenodo_community: https://zenodo.org/communities/narrquest
+  github_authority_repo: https://github.com/chengwuchen/narrquest-authority
+
+policy:
+  canonical_source_rule: >
+    Canonical statements for NarrQuest must be reachable from the Authority Root.
+  non_canonical_default: >
+    Copies, forks, mirrors, and interpretations are non-canonical unless explicitly registered.
