@@ -14,3 +14,7 @@ policy:
     Canonical statements for NarrQuest must be reachable from the Authority Root.
   non_canonical_default: >
     Copies, forks, mirrors, and interpretations are non-canonical unless explicitly registered.
+
+
+maps:
+  narrative_atlas: https://github.com/chengwuchen/narrquest-authority/blob/main/NRA/atlas.yaml
