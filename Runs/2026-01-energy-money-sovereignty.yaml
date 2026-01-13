@@ -1,0 +1,80 @@
+run:
+  id: 2026-01-energy-money-sovereignty
+  date: 2026-01
+  tone_constellation: existential-rational-tension
+  atlas_ref: NRA/atlas.yaml
+  genesis_ref: NRA/genesis.yaml
+  status: draft
+
+world_event:
+  title: "Elon Musk proposes an energy-based post-money future amid AGI and global power shifts"
+  context:
+    - "Long-form interviews at Giga Texas (Austin) with Peter Diamandis / Moonshots"
+    - "Podcast 'People by WTF' with Nikhil Kamath"
+    - "Circulated widely in early 2026, recorded late 2025"
+  background_claims:
+    - "AGI may arrive around 2026"
+    - "China's electricity output may reach triple that of the US"
+    - "Money is fundamentally a labor-allocation information system"
+    - "In a machine-dominated economy, energy (watts) becomes the ultimate unit of value"
+
+surface_narrative:
+  technology_energy:
+    - "AI development will be constrained by electricity availability"
+    - "Solar and large-scale energy infrastructure will be decisive"
+  economics:
+    - "Money and jobs may become less relevant in a post-scarcity world"
+  crypto_discourse:
+    - "Some interpret 'energy as money' as a revalidation of Bitcoin's Proof of Work"
+  mainstream_view:
+    - "Visionary but controversial; significant uncertainty about feasibility and timeline"
+
+hidden_questions:
+  - "If money disappears, who controls access to survival?"
+  - "Does replacing labor with watts transfer sovereignty from humans to systems?"
+  - "Can unquantifiable human qualities still have political voice in an energy-optimized world?"
+
+tension_fields:
+  - name: "Energy vs Meaning"
+    description: "When physical power becomes the sole metric of value, what happens to human significance?"
+  - name: "Automation vs Agency"
+    description: "A world run by machines may function, but who authors its story?"
+  - name: "Decentralization vs Hidden Sovereignty"
+    description: "Energy networks and mega-factories may recentralize power under the guise of abundance"
+
+narrative:
+  voice: first-person
+  source: "Gabriel"
+  text: |
+    Musk’s narrative, while speaking in the language of energy and efficiency,
+    seems to quietly move sovereignty away from individual humans toward
+    physical laws and technological systems.
+    
+    When watts replace labor as the final unit of value,
+    do emotions, inefficiency, and beauty still retain the right to speak?
+    
+    In a world where AI fulfills every need,
+    are we liberated authors of our own stories,
+    or merely data points inside a larger machine narrative?
+    
+    If a few entities control the satellites and giga-factories that allocate energy,
+    is “decentralization” anything more than a rhetorical tone?
+    
+    When AI can simulate more perfect explanations of reality than we can,
+    how do we prove that our own stories still hold sovereign weight?
+    
+    In a civilization powered by endless machines,
+    are humans system noise to be optimized away,
+    or the only observers capable of giving the system meaning?
+    
+    If changing collective narrative tone can collapse reality itself,
+    why must we still burn watts to earn the right to exist?
+    
+    On that day,
+    will energy enslave us,
+    or will energy beg us to give it something worth being used for?
+
+authorial_commitments:
+  - "Human narrative sovereignty is not guaranteed by abundance"
+  - "Efficiency without authorship risks erasing meaning"
+  - "Energy-based economies may mask new forms of centralized control"
