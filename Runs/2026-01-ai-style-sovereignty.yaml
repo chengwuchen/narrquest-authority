@@ -1,0 +1,102 @@
+run:
+  id: 2026-01-ai-style-sovereignty
+  date: 2026-01
+  tone_constellation: narrative-sovereignty-and-ai
+  atlas_ref: NRA/atlas.yaml
+  genesis_ref: NRA/genesis.yaml
+  status: draft
+
+world_event:
+  title: "Sundance Film Festival and WIPO negotiations mark the escalation of the AI copyright and style war"
+  context:
+    - "Hollywood labor and creative contracts enter renegotiation two years after the strike"
+    - "WIPO (Geneva) hosts final-round talks between artist alliances and AI companies"
+    - "Sundance 2026 sees protests over unlabelled deepfake and generative backgrounds"
+    - "Midjourney V6 and OpenAI Sora 1.5 reach near-physical realism"
+
+surface_narrative:
+  legal:
+    - "Courts and regulators frame 2026 as a decisive year for AI copyright"
+    - "AI companies claim training data is transformative use"
+    - "Rightsholders demand collective licensing and compensation"
+  creative_industry:
+    - "Creators are pushed toward branding and transparency"
+    - "Human connection becomes the last defensible differentiator"
+  media_trends:
+    - "Verification replaces reporting as the core journalistic task"
+
+hidden_questions:
+  - "When style becomes extractable, does the artist still own their own skin?"
+  - "Can authorship survive when voice is reduced to parameters?"
+  - "Is human suffering still legible in a world of synthetic aesthetics?"
+
+tension_fields:
+  - name: "Style vs Life"
+    description: "Is artistic style an extension of lived experience or a detachable asset?"
+  - name: "Authorship vs Simulation"
+    description: "Does narrative authority require a body that can suffer?"
+  - name: "Visibility vs Sovereignty"
+    description: "Must creators choose between being seen by algorithms and owning themselves?"
+
+narrative:
+  voice: first-person
+  source: "Gabriel"
+  text: |
+    When your pain, your twenty years of struggle distilled into a brushstroke,
+    is reduced to a set of JSON parameters, what is being extracted—
+    the continuation of art, or the remains of a soul?
+
+    The governance of style turns all human experience into a formatted resource.
+    If we cannot even own our own voice,
+    what integrity remains to us as humans?
+
+    Human style is born from defects and wounds.
+    Machine style is born from probability.
+    If an image carries no body that can bleed or fear,
+    is it anything more than an aesthetic shell?
+
+    When beauty becomes frictionless and cheap,
+    will meaning rebel,
+    driving us to crave the ugly, the broken, the mistaken,
+    simply because they are unlearnable by machines?
+
+    Is all we have left the right to witness suffering?
+    Can an AI-generated battlefield feel the cold of the trench?
+
+    Is the final creative act to refuse optimization,
+    to say no to being averaged into a perfect style matrix?
+
+    If authorship no longer lives in the finished product,
+    but in the un-digitizable bond between creator and witness,
+    should we abandon the artifact to protect the encounter?
+
+    In a future where styles can be swapped at will,
+    is your singular, irreplaceable life-tone a burden,
+    or your last weapon?
+
+    When the skin of style is stripped away,
+    is the trembling self beneath it
+    the only dignity left to us?
+
+    When the digital ocean floods all originality,
+    will you be the observer who drowns
+    still gripping their narrative sovereignty?
+
+    If art is a one-time, embodied event,
+    not a harvestable file,
+    what remains for AI to take?
+
+    And if defending sovereignty means surrendering the desire to be understood,
+    is that the price of escaping the algorithmic prison?
+
+    If AI cannot bear consequence,
+    are its creations anything but ownerless noise?
+
+    In the end,
+    did AI steal our voices—
+    or did we fear the mirror it held to our own emptiness?
+
+authorial_commitments:
+  - "Style without suffering is hollow"
+  - "Authorship requires a body that can bear consequence"
+  - "Narrative sovereignty outweighs algorithmic visibility"
