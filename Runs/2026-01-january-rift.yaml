@@ -1,0 +1,123 @@
+run:
+  id: 2026-01-january-rift
+  date: 2026-01
+  tone_constellation: narrative-sovereignty-and-ai
+  atlas_ref: NRA/atlas.yaml
+  genesis_ref: NRA/genesis.yaml
+  status: draft
+
+world_event:
+  title: "The January Rift: a hyperreal tri-leader video leak triggers global zero-trust panic"
+  date_anchor: "2026-01-05"
+  ongoing: true
+  summary:
+    - "A hyperreal 'three-leader video call' leak alleges secret geopolitical tradeoffs involving allies and nuclear deployment"
+    - "The leak is distributed across decentralized satellite and peer networks, resisting centralized takedown"
+    - "Governments deny authenticity; the public rejects denials; markets and streets destabilize"
+  claimed_source:
+    name: "Narrative Liberation Front"
+    claim: "stolen from 'quantum-encrypted communications'"
+
+impact:
+  institutions:
+    - "Emergency denials by Washington and Brussels; framed as advanced AI cognitive warfare"
+    - "Truth commissions fail to reach rapid consensus; legitimacy erosion accelerates"
+  markets:
+    - "Global equities crash as geopolitical stability becomes unpriceable"
+  society:
+    - "Protests and riots escalate; 'it's AI' no longer functions as reassurance"
+
+surface_narrative:
+  media_frames:
+    - "Verification mechanisms collapse; fact-checking cannot keep pace with second-level deepfakes"
+    - "Humanity enters a Zero-Trust Era"
+    - "Cognitive warfare aims not to convince you of lies, but to make you doubt truths"
+  policy_pressure:
+    - "Calls for 'nuclear-grade' regulation of AI compute"
+    - "Mandatory provenance marks and 'digital biometric codes' for generated content"
+
+hidden_questions:
+  - "When evidence becomes infinite, does law degrade into volume and power?"
+  - "Are we victims of cognitive war, or accomplices who want the forgery to be true?"
+  - "Who holds the final stamp of reality when both states and anonymous networks claim authority?"
+  - "If an AI must verify whether a video is AI-made, what role remains for humans besides fear?"
+  - "Can any social contract survive without shared reality?"
+
+tension_fields:
+  - name: "Witness vs Fabrication"
+    description: "When seeing is no longer a threshold for truth, what can witness culture become?"
+  - name: "Belief vs Bias"
+    description: "Deepfakes weaponize desire: the most dangerous lie is the one you crave."
+  - name: "Authority vs Decentralization"
+    description: "If takedown is impossible, legitimacy becomes the battlefield."
+  - name: "Verification vs Sovereignty"
+    description: "If machines arbitrate authenticity, humans lose the right to decide reality."
+  - name: "Truth vs Cohesion"
+    description: "Do we seek truth, or a shared tone that keeps tribes together?"
+
+narrative:
+  voice: first-person
+  source: "Gabriel"
+  text: |
+    Hearing this from the far side of the world, I realized it is not even as entangled as quantum entanglement—
+    because the horror is simpler:
+    evidence has become decoration.
+
+    When “seeing with your own eyes” no longer sets the threshold for reality,
+    has the witness culture that held civilization together for thousands of years been formatted into a file type?
+    If evidence can be generated without limit,
+    do “law” and “truth” degrade into a contest of who shouts louder?
+
+    The most brutal part is not the forgery.
+    It is that something inside you wants it to be real.
+    When an AI feeds you the truth-shape that fits your bias,
+    can a mind trained by algorithms still distinguish “fact” from “relief”?
+    Are we the casualties of war—
+    or the accomplices of a collective hallucination?
+
+    Officially, it is AI.
+    Unofficially, it is truth.
+    In this narrative swamp, are we handing interpretation to whoever owns the strongest compute?
+    If another AI must decide whether this is AI-generated,
+    what function remains for humans besides fear and outrage?
+
+    When even a president’s voice becomes suspect,
+    can any social contract survive?
+    In a society without shared reality,
+    will we be forced back into primal confirmation—
+    touch, violence, eye contact—
+    just to prove we exist?
+
+    The January Rift did not destroy truth.
+    It held up a mirror:
+    we never truly embraced truth—
+    we lived inside the most comfortable narrative tone we could bear.
+
+    If power can bypass consciousness and seize reflex,
+    does “fact-checking” still mean anything?
+    Are we using an infiltrated organ to identify the infiltrator?
+
+    In this political fracture, are we pursuing truth—
+    or a shared tone that keeps a tribe coherent?
+    If truth would split the tribe,
+    do you have the courage to embrace it?
+
+    When a soulless probability model can decide the ignition of war,
+    do law’s concepts of motive and intent collapse?
+    If evil can become ownerless,
+    how do we rebuild justice in the void?
+
+    If a simulated voice—magnetic, empathetic—
+    makes you feel safer than a tired, stuttering real leader,
+    would you surrender the defect of truth for the comfort of illusion?
+
+    As the world digitizes, does highest power become more primitive?
+    If the final truth can only be confirmed by handshake and eye contact,
+    then what did our trillion-dollar information civilization build—
+    evolution,
+    or a long loop back into self-negation?
+
+authorial_commitments:
+  - "Truth without shared witness collapses into power"
+  - "Cognitive warfare targets trust, not facts"
+  - "Narrative sovereignty requires humans to retain the right to decide reality"
