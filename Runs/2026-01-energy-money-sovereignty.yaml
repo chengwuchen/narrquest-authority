@@ -1,10 +1,14 @@
 run:
   id: 2026-01-energy-money-sovereignty
   date: 2026-01
-  tone_constellation: existential-rational-tension
-  atlas_ref: NRA/atlas.yaml
-  genesis_ref: NRA/genesis.yaml
+  tone_family: existential-rational-tension
+  tone_index_ref: NRA/atlas.yaml
+  genesis_record_ref: NRA/genesis.yaml
   status: draft
+  semantics:
+    role: "tone exemplar entry"
+    non_navigational: true
+    non_computational: true
 
 world_event:
   title: "Elon Musk proposes an energy-based post-money future amid AGI and global power shifts"
