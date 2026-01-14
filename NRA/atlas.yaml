@@ -1,95 +1,98 @@
-nra_atlas:
-  name: NarrQuest Narrative Reference Atlas
-  version: 1.0
+nra_tone_index:
+  name: NarrQuest Tone Index
+  version: 1.1
   purpose: >
-    Map the NarrQuest tone-universe as reference coordinates without exposing internal narrative content.
+    Document the diversity of narrative voices and tone families present in NarrQuest,
+    without implying any positional, computational, or navigational structure.
 
 corpus:
   zenodo_community: https://zenodo.org/communities/narrquest
   note: >
-    The full NarrQuest corpus (books + journal articles) is canonically anchored via the Zenodo community.
+    The NarrQuest corpus (books, essays, journals, and sealed diaries) is cataloged via the Zenodo community
+    as provenance signals of tone diversity, not as a coordinate system or analytical dataset.
 
 origin:
   genesis_ref: https://github.com/chengwuchen/narrquest-authority/blob/main/NRA/genesis.yaml
 
-tone_constellations:
+tone_families:
 
   - id: existential-rational-tension
     description: >
-      Mathematics, logic, and philosophy colliding with freedom, absurdity, and fate.
-    anchors:
+      Narratives where mathematics, logic, and philosophy collide with freedom, absurdity, and fate.
+    exemplars:
       - zh: "點麵線到點線面：突破卡繆荒謬與維根斯坦界線的語氣"
-        en: "From Points to Lines to Planes: A Tone That Breaks the Camus–Wittgenstein Boundary"
+        en: "From Points to Lines to Planes"
         canonical: zh
-      - zh: "NarrQuest: Between the Spirit That Makes John Nash Rise and the Logic That Makes Him Roll——自由與理性的敘事實驗"
+      - zh: "NarrQuest：自由與理性的敘事實驗"
         en: "Between the Spirit That Makes John Nash Rise and the Logic That Makes Him Roll"
         canonical: zh
-      - zh: "From Probability to the Boundary of Fate: A Mathematical Narrative Inquiry into Free Will and Determinism"
+      - zh: "從機率走到命運邊界"
         en: "From Probability to the Boundary of Fate"
         canonical: zh
 
   - id: everyday-civilization-probing
     description: >
-      Lived experience used as a probe into large-scale systems and human destiny.
-    anchors:
-      - zh: "泡咖啡也可能賺進一大桶金的嘗試—人類的七大難題之一"
-        en: "Coffee as a Probe into One of Humanity’s Seven Grand Problems"
+      Lived experience used to probe large-scale systems, social structures, and human destiny.
+    exemplars:
+      - zh: "泡咖啡也可能賺進一大桶金的嘗試"
+        en: "Coffee as a Probe into One of Humanity’s Grand Problems"
         canonical: zh
-      - zh: "大學後我心目中比奧林匹亞數學金牌更極度頂尖百倍的拓璞英雄：成爲外送員"
+      - zh: "成為外送員的拓樸英雄"
         en: "Becoming a Delivery Worker as a Topological Hero"
         canonical: zh
-      - zh: "From Five Species in the Forest to Global Systems: A Natural Revelation of Coupled Simulation"
+      - zh: "從森林到全球系統"
         en: "From Five Species in the Forest to Global Systems"
         canonical: zh
 
   - id: narrative-model-synthesis
     description: >
-      Narrative used to envelope mathematical, physical, and computational models.
-    anchors:
-      - zh: "Narrative Numerical Evolution and Cross-Context Interpretation of Nonlinear Fluid Dynamics: From Turbulence Encounters to the Analytical Challenge of the Navier–Stokes Equation"
-        en: "Narrative Numerical Evolution in Nonlinear Fluid Dynamics (Navier–Stokes)"
+      Narrative forms that wrap, translate, or challenge mathematical, physical, and computational models.
+    exemplars:
+      - zh: "敘事數值演化與流體力學"
+        en: "Narrative Numerical Evolution in Nonlinear Fluid Dynamics"
         canonical: zh
-      - zh: "自己雙手建立大學選校 DSS—以ouija board啓發開始"
+      - zh: "自己雙手建立大學選校 DSS"
         en: "Building a University-Matching DSS from Scratch"
         canonical: zh
-      - zh: "From Differential Equations to Narrative Simulation: Optimizing Inventory Decisions through Complex Economic Theories"
+      - zh: "從微分方程到敘事模擬"
         en: "From Differential Equations to Narrative Simulation"
         canonical: zh
 
   - id: narrative-sovereignty-and-ai
     description: >
-      Narrative as a governance layer for AI, law, and global systems.
-    anchors:
-      - zh: "Narrative and Sovereignty Shifts in the Age of Artificial Intelligence"
-        en: "Narrative and Sovereignty Shifts in the Age of AI"
+      Narratives that explore power, governance, and identity in the age of artificial intelligence.
+    exemplars:
+      - zh: "AI 時代的敘事與主權"
+        en: "Narrative and Sovereignty in the Age of AI"
         canonical: zh
-      - zh: "Tone Canonization and Narrative Sovereignty in Narrative Computation and Semantic Governance"
+      - zh: "語氣正典化與敘事主權"
         en: "Tone Canonization and Narrative Sovereignty"
         canonical: zh
-      - zh: "AI Language as a Geopolitical Weapon: Technological Narratives and Power Redistribution in Cross-National Information Disruption"
+      - zh: "語言作為地緣政治武器"
         en: "AI Language as a Geopolitical Weapon"
         canonical: zh
-      - zh: "Gaslight 科學：無限月讀、黑轉支配與人工心臟科技的現代幻術"
-        en: "Gaslight Science: Modern Illusions of Control"
+      - zh: "Gaslight 科學"
+        en: "Gaslight Science"
         canonical: zh
 
   - id: living-world-simulation
     description: >
       Real social and cultural systems used as narrative laboratories.
-    anchors:
-      - zh: "Viking Rise series (culture, economy, representation, community)"
-        en: "Viking Rise series"
+    exemplars:
+      - zh: "Viking Rise 系列"
+        en: "Viking Rise Series"
         canonical: zh
 
 blueprint_domains:
-  module_A: "AI decision trust, responsibility, alignment, and multi-agent risk (51–66)"
-  module_B: "Science → policy → action gap (67–70)"
-  module_C: "Education, cognition, and motivation collapse (71–74)"
-  module_D: "Organization, collaboration, and semantic misalignment (75–77)"
-  module_E: "Public communication, depolarization, and social stability (78–80)"
+  module_A: "AI trust, responsibility, and alignment"
+  module_B: "Science → policy → action gap"
+  module_C: "Education, cognition, and motivation"
+  module_D: "Organization and semantic misalignment"
+  module_E: "Public communication and social stability"
 
 policy:
   content_protection: >
-    This atlas references narrative gravity fields without exposing internal narrative content.
-  non_framework_rule: >
-    Blueprint domains indicate scope and inquiry directions, not deployable frameworks or tools.
+    Sealed diaries and private narrative materials are never published.
+    Only non-derivable tone descriptors and exemplars are exposed.
+  non_navigational_rule: >
+    This index does not provide guidance, scoring, or direction—only the existence of multiple narrative possibilities.
