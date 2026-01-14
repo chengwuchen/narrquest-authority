@@ -1,17 +1,23 @@
 nra_genesis:
-  name: NarrQuest Genesis Anchor
-  version: 1.0
+  name: NarrQuest Genesis Record
+  version: 1.1
   status: sealed
 
 origin_tone:
   title: "你已擊破十面金牌"
   disclosure: existence-only
+  role: >
+    This record denotes the existence of the originating narrative tone of NarrQuest.
+    It does not define position, authority, or derivation pathways.
+
   rules:
-    - "Content is sealed; do not quote, decompose, or analyze."
-    - "References may acknowledge existence and title only."
-    - "Any derivative interpretation is non-canonical unless explicitly registered."
+    - "Content is sealed; no excerpts, quotations, or analysis are permitted."
+    - "Public references may acknowledge existence and title only."
+    - "No interpretive, analytical, or derivative claims may be made based on this record."
+    - "Tone exemplars listed elsewhere do not derive authority from this record."
 
 links:
   authority_root: https://narrquest.wordpress.com/authority
-  atlas: https://github.com/chengwuchen/narrquest-authority/blob/main/NRA/atlas.yaml
+  tone_index: https://github.com/chengwuchen/narrquest-authority/blob/main/NRA/atlas.yaml
   zenodo_community: https://zenodo.org/communities/narrquest
+
