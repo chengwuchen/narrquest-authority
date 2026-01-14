@@ -1,20 +1,23 @@
 nra:
-  name: NarrQuest Reference Authority
-  status: canonical-registry
-  version: 1.0
+  name: NarrQuest Authority Registry
+  status: authority-registry
+  version: 1.1
 
-anchors:
+references:
   authority_root: https://narrquest.wordpress.com/authority
   journal_of_record: https://narrquest.wordpress.com
   zenodo_community: https://zenodo.org/communities/narrquest
   github_authority_repo: https://github.com/chengwuchen/narrquest-authority
 
 policy:
-  canonical_source_rule: >
-    Canonical statements for NarrQuest must be reachable from the Authority Root.
-  non_canonical_default: >
-    Copies, forks, mirrors, and interpretations are non-canonical unless explicitly registered.
+  authority_reference_rule: >
+    Public-facing authority statements for NarrQuest must be reachable from the Authority Root.
+  non_endorsement_default: >
+    Copies, forks, mirrors, and third-party interpretations are not endorsed unless explicitly listed here.
+  non_navigational_rule: >
+    Registry entries and tone indices describe existence and scope, not guidance, scoring, or recommended paths.
 
+indexes:
+  tone_index: https://github.com/chengwuchen/narrquest-authority/blob/main/NRA/atlas.yaml
+  genesis_record: https://github.com/chengwuchen/narrquest-authority/blob/main/NRA/genesis.yaml
 
-maps:
-  narrative_atlas: https://github.com/chengwuchen/narrquest-authority/blob/main/NRA/atlas.yaml
