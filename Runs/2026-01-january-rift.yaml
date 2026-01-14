@@ -1,10 +1,14 @@
 run:
   id: 2026-01-january-rift
   date: 2026-01
-  tone_constellation: narrative-sovereignty-and-ai
-  atlas_ref: NRA/atlas.yaml
-  genesis_ref: NRA/genesis.yaml
+  tone_family: narrative-sovereignty-and-ai
+  tone_index_ref: NRA/atlas.yaml
+  genesis_record_ref: NRA/genesis.yaml
   status: draft
+  semantics:
+    role: "tone exemplar entry"
+    non_navigational: true
+    non_computational: true
 
 world_event:
   title: "The January Rift: a hyperreal tri-leader video leak triggers global zero-trust panic"
