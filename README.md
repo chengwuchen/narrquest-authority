@@ -6,6 +6,9 @@ NarrQuest is not a software product, a toolkit, or an implementation framework.
 It is a narrative and tone governance system governing how generative, editorial, and epistemic agents interpret, resolve, and act under uncertainty, conflict, and authorship.
 
 All official NarrQuest definitions, declarations, and specifications originate from this repository.
+## ⚠️ Structural Responsibility Boundary
+
+Any failure, limitation, or unexpected outcome observed in a specific run constitutes a behavior of this structure under particular assumptions and conditions. Such outcomes do not invalidate the existence, legitimacy, or continued use of the structure itself, nor do they imply authorial endorsement or responsibility for downstream applications.
 
 ---
 
