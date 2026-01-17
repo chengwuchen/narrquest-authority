@@ -1,3 +1,11 @@
+authority:
+  failure-spec: spec/failure-spec.md@0.1.0
+  compliance-spec: spec/compliance-spec.md@0.1.0
+  failure_observation:
+  observed: true
+  notes: >
+    The run exposes an authenticity failure: synthetic media can imitate a target identity or style with
+    insufficient provenance and verification, making downstream trust and accountability unstable.
 run:
   id: 2026-01-ai-style-sovereignty
   date: 2026-01
