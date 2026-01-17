@@ -1,0 +1,26 @@
+index:
+  governed_by:
+    failure-spec: spec/failure-spec.md@0.1.0
+    compliance-spec: spec/compliance-spec.md@0.1.0
+
+runs:
+  - id: 2026-01-january-rift
+    failure_observed: true
+    failure_tags:
+      - attribution
+      - consent
+      - boundary-control
+
+  - id: 2026-01-ai-style-sovereignty
+    failure_observed: true
+    failure_tags:
+      - authenticity
+      - provenance
+      - verification
+
+  - id: 2026-01-energy-money-sovereignty
+    failure_observed: true
+    failure_tags:
+      - interpretation
+      - assumptions
+      - falsifiability
