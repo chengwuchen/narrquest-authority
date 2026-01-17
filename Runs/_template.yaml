@@ -1,0 +1,23 @@
+# This file is a TEMPLATE.
+# Do NOT index or reference this file as a run.
+
+authority:
+  failure-spec: spec/failure-spec.md@0.1.0
+  compliance-spec: spec/compliance-spec.md@0.1.0
+
+failure_observation:
+  # Set to true only if a governance / interpretive / structural failure is observed
+  observed: false
+  notes: >
+    TBD
+
+run:
+  # REQUIRED: unique identifier for this run
+  id: TBD
+
+  # REQUIRED: ISO date (YYYY-MM or YYYY-MM-DD)
+  date: TBD
+
+  # REQUIRED: concise factual summary (no analysis here)
+  summary: >
+    TBD
