@@ -1,0 +1,37 @@
+patterns:
+  - pattern_id: FP-1
+    label: provenance-collapse
+    description: >
+      A run cannot maintain trustworthy origin, authorship, or identity under replication/synthesis.
+    tags:
+      - authenticity
+      - provenance
+      - verification
+      - attribution
+
+  - pattern_id: FP-2
+    label: rights-boundary-breakdown
+    description: >
+      A run cannot enforce consent, attribution, or boundary control over reuse/remix of original work.
+    tags:
+      - consent
+      - boundary-control
+
+  - pattern_id: FP-3
+    label: interpretive-overreach
+    description: >
+      High-level claims are treated as inevitable/policy-like without explicit assumptions or falsifiable constraints.
+    tags:
+      - interpretation
+      - assumptions
+      - falsifiability
+
+mapping:
+  - run_id: 2026-01-january-rift
+    pattern_ids: [FP-1, FP-2]
+
+  - run_id: 2026-01-ai-style-sovereignty
+    pattern_ids: [FP-1]
+
+  - run_id: 2026-01-energy-money-sovereignty
+    pattern_ids: [FP-3]
