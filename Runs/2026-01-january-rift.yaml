@@ -1,3 +1,11 @@
+authority:
+  failure-spec: spec/failure-spec.md@0.1.0
+  compliance-spec: spec/compliance-spec.md@0.1.0
+failure_observation:
+  observed: true
+  notes: >
+    The run reveals a governance failure: original creative work can be appropriated
+    or remixed by AI systems without enforceable attribution, consent, or boundary control.
 run:
   id: 2026-01-january-rift
   date: 2026-01
