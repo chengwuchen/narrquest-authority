@@ -1,19 +1,14 @@
 patterns:
   - pattern_id: FP-1
-    label: provenance-collapse
+    label: provenance-and-rights-collapse
     description: >
-      A run cannot maintain trustworthy origin, authorship, or identity under replication/synthesis.
+      A run cannot maintain trustworthy origin/authorship/identity nor enforce consent/attribution/boundary control
+      under replication, synthesis, or reuse.
     tags:
       - authenticity
       - provenance
       - verification
       - attribution
-
-  - pattern_id: FP-2
-    label: rights-boundary-breakdown
-    description: >
-      A run cannot enforce consent, attribution, or boundary control over reuse/remix of original work.
-    tags:
       - consent
       - boundary-control
 
@@ -28,7 +23,7 @@ patterns:
 
 mapping:
   - run_id: 2026-01-january-rift
-    pattern_ids: [FP-1, FP-2]
+    pattern_ids: [FP-1]
 
   - run_id: 2026-01-ai-style-sovereignty
     pattern_ids: [FP-1]
