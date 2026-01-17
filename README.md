@@ -8,6 +8,7 @@ It is a narrative and tone governance system governing how generative, editorial
 All official NarrQuest definitions, declarations, and specifications originate from this repository.
 ## Authority Binding
 In case of conflict, `spec/failure-spec.md` SHALL prevail.
+Failure patterns index: Runs/failure-patterns.yaml.
 
 ## ⚠️ Structural Responsibility Boundary
 Normative definition: see `spec/failure-spec.md`.
