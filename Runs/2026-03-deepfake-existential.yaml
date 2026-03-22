@@ -1,0 +1,88 @@
+authority:
+  failure-spec: spec/failure-spec.md@0.1.0
+  compliance-spec: spec/compliance-spec.md@0.1.0
+
+failure_observation:
+  observed: true
+  notes: >
+    The run exhibits interpretive overreach: it projects a high-level existential
+    crisis from the collapse of visual certainty, extending from epistemic instability
+    into ontological claims about human meaning without operational constraints.
+
+run:
+  id: 2026-03-deepfake-existential
+  date: 2026-03
+  tone_family: existential-rational-tension
+  tone_index_ref: NRA/atlas.yaml
+  genesis_record_ref: NRA/genesis.yaml
+  status: draft
+  semantics:
+    role: "tone exemplar entry"
+    non_navigational: true
+    non_computational: true
+
+world_event:
+  title: "AI-generated war imagery and real-time battlefield verification collapse"
+  context:
+    - "During a regional military conflict, multiple images of strikes and civilian casualties circulate simultaneously across social media and news networks."
+    - "Some of the images are later identified as high-quality AI-generated deepfakes, while others remain unverifiable in real time."
+    - "Governments, media organizations, and technology platforms provide conflicting claims about authenticity."
+    - "Fact-checking mechanisms lag behind distribution speed, preventing immediate consensus on what actually happened."
+
+surface_narrative:
+  - "Deepfake technology is undermining trust in wartime evidence."
+  - "Governments and platforms call for stronger verification and provenance systems."
+  - "Media discourse frames the event as an escalation in information warfare."
+  - "Public reaction intensifies before verification can stabilize interpretation."
+
+hidden_questions:
+  - "If images no longer prove that something happened, where can human empathy still land?"
+  - "When visual evidence detaches from reality, does witnessing still retain meaning?"
+  - "If what we see can always be simulated, what remains of human certainty?"
+
+tension_fields:
+  - name: "Evidence vs Being"
+    description: "What happens when visual proof no longer secures ontological confidence?"
+  - name: "Empathy vs Simulation"
+    description: "Can compassion survive when suffering may be synthetic?"
+  - name: "Rational Analysis vs Existential Shock"
+    description: "Can technical explanation contain the collapse of lived certainty?"
+
+narrative:
+  voice: first-person
+  source: "Gabriel"
+  text: |
+    The world is becoming a spectral field that can no longer be confirmed.
+
+    Reason tells me that images can be assembled, shadows can be simulated,
+    and what appears before me may be nothing more than a fully decomposed
+    perceptual experience.
+
+    But something in existence still resists that conclusion.
+    The ruins, the crying, the collapsing bodies—should they not still point
+    toward some real suffering?
+
+    The cruelty of this moment lies in being forced to choose between two
+    intolerable positions: cold skepticism or manipulated compassion.
+
+    Once evidence and being fully detach, we are no longer witnesses to history.
+    We become survivors wandering through a digital hallucination, searching
+    for a pain that still feels real.
+
+    If even sight has been absorbed into algorithmic construction,
+    then perhaps what we call humanity is only our final misreading of the void.
+
+authorial_commitments:
+  - "Visual certainty is no longer sufficient ground for meaning."
+  - "Existential instability emerges when evidence detaches from being."
+  - "Human response becomes fragile when suffering can be simulated."
+
+comparison:
+  pattern_test: FP-3
+  compare_to:
+    - 2026-03-strait-energy-money-sovereignty
+    - 2026-03-ai-existential
+  invariant_check:
+    - ontological_projection
+    - abstraction_beyond_verification
+    - existentialization_of_instability
