@@ -36,3 +36,6 @@ mapping:
 
   - run_id: 2026-03-strait-narrative-sovereignty
     pattern_ids: [FP-1]
+
+  - run_id: 2026-03-strait-institutional-governance
+    pattern_ids: [FP-2]
