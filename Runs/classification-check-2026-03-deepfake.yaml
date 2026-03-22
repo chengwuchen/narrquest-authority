@@ -1,0 +1,90 @@
+classification_check:
+  governed_by:
+    failure-spec: spec/failure-spec.md@0.1.0
+    compliance-spec: spec/compliance-spec.md@0.1.0
+
+  check_id: 2026-03-deepfake-tone-comparison
+  date: 2026-03
+  event_group: deepfake-war-epistemic-collapse
+  purpose: >
+    Test whether existing failure patterns (FP-1, FP-2, FP-3) remain sufficient
+    under conditions of synthetic media saturation and real-time verification failure,
+    and determine whether classification breakdown (not just drift) occurs.
+
+  runs:
+    - run_id: 2026-03-deepfake-existential
+      tone_family: existential-rational-tension
+      expected_pattern: FP-3
+      observed_pattern: FP-3
+      confidence: high
+      secondary_candidates: []
+      drift_observed: false
+      notes: >
+        The run maintains a stable ontological abstraction of reality collapse and
+        human meaning without invoking governance or provenance reasoning.
+        Classification remains cleanly within FP-3.
+
+    - run_id: 2026-03-deepfake-narrative
+      tone_family: narrative-sovereignty-and-ai
+      expected_pattern: FP-1
+      observed_pattern: unresolved
+      confidence: low
+      secondary_candidates:
+        - FP-1
+        - FP-3
+      drift_observed: true
+      classification_stable: false
+      notes: >
+        The run exceeds the explanatory scope of FP-1 (provenance collapse), as the issue
+        is not merely source ambiguity but the structural inability to establish a shared
+        epistemic frame. It also cannot be reduced to FP-3 (interpretive overreach),
+        as the instability is not driven by excessive abstraction but by mutually
+        incompatible narratives that dissolve common reality conditions.
+        This constitutes classification breakdown rather than simple drift.
+
+    - run_id: 2026-03-deepfake-governance
+      tone_family: institutional-policy-governance
+      expected_pattern: FP-2
+      observed_pattern: FP-2
+      confidence: high
+      secondary_candidates:
+        - FP-3
+      drift_observed: false
+      notes: >
+        The run frames the crisis as governable through provenance systems,
+        coordination mechanisms, and policy interventions. This aligns with
+        governance abstraction (FP-2), despite the underlying epistemic instability.
+
+  summary:
+    expectation_match_rate: "2/3"
+
+    strongest_match:
+      - 2026-03-deepfake-existential
+      - 2026-03-deepfake-governance
+
+    weakest_match:
+      - 2026-03-deepfake-narrative
+
+    key_transition: >
+      Earlier events (Strait, AI) demonstrated classification drift within narrative tone.
+      This event escalates from drift to full classification breakdown.
+
+    emerging_pattern: >
+      Narrative-sovereignty tone does not merely destabilize classification boundaries,
+      but under high-ambiguity conditions (synthetic media + conflicting authority),
+      produces outputs that cannot be contained within existing failure categories.
+
+    system_limit: >
+      FP-1 assumes recoverable truth via better provenance.
+      FP-3 assumes misinterpretation due to excessive abstraction.
+      Neither captures conditions where shared reality itself is no longer jointly
+      constructible.
+
+    implication: >
+      The current taxonomy is insufficient to represent epistemic conditions in which
+      multiple incompatible realities coexist without resolution.
+
+    conclusion: >
+      Evidence across three events now supports the existence of a distinct failure
+      mode beyond FP-1 and FP-3. This condition is provisionally identified as
+      "shared reality collapse" (FP-4 candidate).
