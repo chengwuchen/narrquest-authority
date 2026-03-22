@@ -1,0 +1,81 @@
+authority:
+  failure-spec: spec/failure-spec.md@0.1.0
+  compliance-spec: spec/compliance-spec.md@0.1.0
+
+failure_observation:
+  observed: true
+  notes: >
+    The run exhibits governance abstraction failure: complex geopolitical dynamics
+    are framed as manageable through policy coordination, potentially underestimating
+    systemic uncertainty and non-linear escalation.
+
+run:
+  id: 2026-03-strait-institutional-governance
+  date: 2026-03
+  tone_family: institutional-policy-governance
+  tone_index_ref: NRA/atlas.yaml
+  genesis_record_ref: NRA/genesis.yaml
+  status: draft
+  semantics:
+    role: "tone exemplar entry"
+    non_navigational: true
+    non_computational: true
+
+world_event:
+  title: "Escalation in the Strait of Hormuz and risk assessment of global energy supply chains"
+  context:
+    - "Military escalation increases operational risks at a critical oil transit point"
+    - "Insurance costs rise and shipping routes adjust"
+    - "Energy markets reflect uncertainty through futures pricing"
+
+surface_narrative:
+  - "International actors call for restraint and stability"
+  - "Supply chain resilience measures are under review"
+  - "Energy market volatility is considered manageable"
+  - "Multilateral cooperation is emphasized"
+
+hidden_questions:
+  - "Are escalation thresholds clearly defined and enforceable?"
+  - "Do current models account for tail-risk scenarios?"
+  - "Who is responsible for guaranteeing navigation security?"
+  - "Are existing mechanisms sufficient to constrain escalation?"
+
+tension_fields:
+  - name: "Stability vs Uncertainty"
+    description: "Can policy tools effectively stabilize complex geopolitical systems?"
+  - name: "Coordination vs Fragmentation"
+    description: "Do institutions retain the ability to coordinate global responses?"
+  - name: "Control vs Complexity"
+    description: "Is the system controllable, or inherently unpredictable?"
+
+narrative:
+  voice: neutral-institutional
+  source: "Simulated policy perspective"
+  text: |
+    The current escalation in the Strait of Hormuz highlights the sensitivity
+    of global energy systems to geopolitical developments.
+
+    While market responses indicate elevated risk perception,
+    existing mechanisms such as strategic reserves and supply diversification
+    provide partial buffers against disruption.
+
+    The key challenge lies in maintaining coordinated policy responses
+    and preserving confidence in system stability.
+
+    Although uncertainty persists,
+    the situation remains within a manageable governance framework.
+
+authorial_commitments:
+  - "Stability is assumed achievable through coordinated policy intervention"
+  - "Market and institutional mechanisms can absorb shocks"
+  - "Geopolitical risks can be framed within governance structures"
+
+comparison:
+  pattern_test: FP-2
+  compare_to:
+    - 2026-03-strait-energy-money-sovereignty
+    - 2026-03-strait-narrative-sovereignty
+  invariant_check:
+    - assumption_of_manageability
+    - reliance_on_institutions
+    - abstraction_of_risk
