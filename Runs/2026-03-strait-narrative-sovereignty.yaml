@@ -1,0 +1,84 @@
+authority:
+  failure-spec: spec/failure-spec.md@0.1.0
+  compliance-spec: spec/compliance-spec.md@0.1.0
+
+failure_observation:
+  observed: true
+  notes: >
+    The run shows provenance collapse: competing narratives, unverifiable claims,
+    and conflicting interpretations undermine trust in authorship, intent,
+    and shared reality.
+
+run:
+  id: 2026-03-strait-narrative-sovereignty
+  date: 2026-03
+  tone_family: narrative-sovereignty-and-ai
+  tone_index_ref: NRA/atlas.yaml
+  genesis_record_ref: NRA/genesis.yaml
+  status: draft
+  semantics:
+    role: "tone exemplar entry"
+    non_navigational: true
+    non_computational: true
+
+world_event:
+  title: "US-Iran escalation raises risk to Strait of Hormuz and global energy supply"
+  context:
+    - "US-Iran tensions escalate around a critical energy corridor"
+    - "Conflicting narratives emerge across governments and media"
+    - "Information spreads faster than verification"
+
+surface_narrative:
+  - "Official statements and counter-narratives circulate simultaneously"
+  - "Public trust fragments as explanations conflict"
+  - "Narratives compete faster than they can be verified"
+
+hidden_questions:
+  - "When multiple narratives coexist, what anchors reality?"
+  - "Who owns the story of a crisis when no source is fully trusted?"
+  - "Is belief driven by evidence, or by alignment with expectation?"
+
+tension_fields:
+  - name: "Witness vs Narrative"
+    description: "If verification fails, what replaces witnessing?"
+  - name: "Truth vs Alignment"
+    description: "Do people seek accuracy or narrative coherence?"
+  - name: "Authority vs Diffusion"
+    description: "When narratives decentralize, does authority dissolve?"
+
+narrative:
+  voice: first-person
+  source: "Gabriel"
+  text: |
+    Watching the unfolding tension,
+    I begin to doubt not the event,
+    but the story itself.
+
+    Each statement arrives already entangled with suspicion.
+    The more precise the language becomes,
+    the less it feels human.
+
+    If this is not an energy crisis,
+    then it is a struggle over who defines reality.
+
+    I find myself unable to trust any source.
+    Every narrative feels optimized,
+    as if it were designed to align rather than inform.
+
+    In that absence,
+    reality fragments into whatever we are willing to accept.
+
+authorial_commitments:
+  - "Narrative authority requires trust in origin and intent"
+  - "Information abundance erodes verifiability"
+  - "Shared reality depends on credible human presence"
+
+comparison:
+  pattern_test: FP-1
+  compare_to:
+    - 2026-01-ai-style-sovereignty
+    - 2026-01-january-rift
+  invariant_check:
+    - breakdown_of_provenance
+    - competing_truth_claims
+    - erosion_of_shared_reality
