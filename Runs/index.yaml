@@ -38,3 +38,10 @@ runs:
       - authenticity
       - provenance
       - verification
+      
+  - id: 2026-03-strait-institutional-governance
+    failure_observed: true
+    failure_tags:
+      - governance
+      - abstraction
+      - coordination
