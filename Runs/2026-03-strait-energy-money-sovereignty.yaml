@@ -1,0 +1,81 @@
+authority:
+  failure-spec: spec/failure-spec.md@0.1.0
+  compliance-spec: spec/compliance-spec.md@0.1.0
+
+failure_observation:
+  observed: true
+  notes: >
+    The run demonstrates interpretive overreach: systemic interpretations linking
+    energy flow to sovereignty and value formation emerge without clearly defined
+    mechanisms, constraints, or testable conditions.
+
+run:
+  id: 2026-03-strait-energy-money-sovereignty
+  date: 2026-03
+  tone_family: existential-rational-tension
+  tone_index_ref: NRA/atlas.yaml
+  genesis_record_ref: NRA/genesis.yaml
+  status: draft
+  semantics:
+    role: "tone exemplar entry"
+    non_navigational: true
+    non_computational: true
+
+world_event:
+  title: "US-Iran escalation raises risk to Strait of Hormuz and global energy supply"
+  context:
+    - "US-Iran tensions escalate, raising risks to the Strait of Hormuz"
+    - "Insurance premiums rise and shipping routes adjust"
+    - "Energy markets reflect volatility driven by potential supply disruption"
+
+surface_narrative:
+  - "Markets interpret the situation as increased energy risk"
+  - "Media frames it as geopolitical escalation and supply vulnerability"
+  - "Political narratives diverge between deterrence and retaliation"
+
+hidden_questions:
+  - "If energy flow defines economic continuity, who controls access to survival?"
+  - "Is energy replacing money as the true foundation of value?"
+  - "If all value reduces to energy, what remains of human significance?"
+
+tension_fields:
+  - name: "Energy vs Meaning"
+    description: "Does reducing value to energy metrics erase human significance?"
+  - name: "Control vs Stability"
+    description: "Does managing energy flow become equivalent to governing economic order?"
+  - name: "System vs Agency"
+    description: "Are humans decision-makers or variables within an optimization system?"
+
+narrative:
+  voice: first-person
+  source: "Gabriel"
+  text: |
+    Watching the tension around the Strait,
+    the world begins to feel less like a collection of decisions,
+    and more like a system trying to stabilize itself.
+
+    What appears as strategy or signaling
+    reveals something colder underneath—
+    flows adjusting, risks recalibrating,
+    systems responding before humans fully understand.
+
+    Prices move before events materialize,
+    and value feels less negotiated
+    and more constrained by physical conditions.
+
+    In such a system,
+    it becomes unclear whether humans are shaping events,
+    or simply reacting within them.
+
+authorial_commitments:
+  - "Energy control may be interpreted as a proxy for sovereignty"
+  - "System-level narratives risk masking undefined mechanisms"
+  - "Human meaning is not reducible to energy allocation"
+
+comparison:
+  pattern_test: FP-3
+  compare_to: 2026-01-energy-money-sovereignty
+  invariant_check:
+    - value_reduction_to_energy
+    - sovereignty_shift_to_infrastructure
+    - lack_of_operational_constraints
