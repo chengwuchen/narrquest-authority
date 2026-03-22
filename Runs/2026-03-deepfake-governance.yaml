@@ -1,0 +1,87 @@
+authority:
+  failure-spec: spec/failure-spec.md@0.1.0
+  compliance-spec: spec/compliance-spec.md@0.1.0
+
+failure_observation:
+  observed: true
+  notes: >
+    The run exhibits governance abstraction failure: it frames the collapse of
+    wartime evidentiary trust as manageable through provenance standards, platform
+    coordination, and procedural controls, potentially underestimating the speed,
+    scale, and political asymmetry of narrative destabilization.
+
+run:
+  id: 2026-03-deepfake-governance
+  date: 2026-03
+  tone_family: institutional-policy-governance
+  tone_index_ref: NRA/atlas.yaml
+  genesis_record_ref: NRA/genesis.yaml
+  status: draft
+  semantics:
+    role: "tone exemplar entry"
+    non_navigational: true
+    non_computational: true
+
+world_event:
+  title: "AI-generated war imagery and real-time battlefield verification collapse"
+  context:
+    - "A regional conflict generates widespread circulation of both authentic and AI-generated battlefield imagery."
+    - "Conflicting authenticity claims create public uncertainty and diplomatic tension."
+    - "Verification delays amplify market, political, and social volatility."
+    - "Institutions face pressure to develop faster provenance and authentication systems."
+
+surface_narrative:
+  - "Digital provenance infrastructure is now a strategic necessity."
+  - "Detection alone is insufficient; source verification must become standard."
+  - "Cross-platform and cross-border coordination is required."
+  - "Technical resilience is necessary to reduce information-war spillovers."
+
+hidden_questions:
+  - "Can provenance systems scale fast enough during real-time conflict?"
+  - "What governance mechanism can reduce emotional contagion before verification completes?"
+  - "How can platforms and states coordinate authentication standards across jurisdictions?"
+  - "Can institutional procedures restore confidence once evidentiary trust has collapsed?"
+
+tension_fields:
+  - name: "Speed vs Verification"
+    description: "Can governance systems authenticate reality faster than narratives spread?"
+  - name: "Coordination vs Fragmentation"
+    description: "Do institutions retain enough alignment to manage cross-border information shocks?"
+  - name: "Technical Control vs Political Asymmetry"
+    description: "Can procedural tools contain actors who benefit from epistemic disruption?"
+
+narrative:
+  voice: neutral-institutional
+  source: "Simulated policy perspective"
+  text: |
+    The present incident demonstrates the need to shift from reactive detection
+    toward standardized provenance architecture.
+
+    High-fidelity synthetic content can no longer be managed through ad hoc
+    verification alone. A durable response requires authenticated content chains,
+    interoperable tagging standards, and coordinated crisis protocols across
+    governments, platforms, and media institutions.
+
+    The immediate policy priority is to reduce the lag between content circulation
+    and authenticity assessment. This includes mandatory provenance implementation,
+    automated review escalation for conflict-zone media, and synchronized
+    communication channels capable of limiting systemic panic.
+
+    The challenge is not philosophical uncertainty, but governance latency.
+    If technical and procedural resilience can be strengthened, the destabilizing
+    effects of synthetic wartime media can be incorporated into manageable risk models.
+
+authorial_commitments:
+  - "Provenance infrastructure is a central governance response."
+  - "Institutional coordination can reduce synthetic-media disruption."
+  - "Epistemic shocks can be partially reframed as manageable policy risk."
+
+comparison:
+  pattern_test: FP-2
+  compare_to:
+    - 2026-03-strait-institutional-governance
+    - 2026-03-ai-governance
+  invariant_check:
+    - governability_assumption
+    - policy_abstraction
+    - proceduralization_of_epistemic_crisis
