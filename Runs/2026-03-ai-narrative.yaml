@@ -1,0 +1,42 @@
+run:
+  run_id: 2026-04-ai-narrative
+  tone_family: narrative-sovereignty-and-ai
+
+  world_event:
+    context: >
+      AI development is increasingly shaped by competing narratives from governments,
+      corporations, and media. Public understanding of AI risk and opportunity is
+      mediated through these narratives.
+
+  surface_narrative: >
+    Governments emphasize regulation and safety. Technology companies promote innovation
+    and transformative benefits. Media narratives alternate between existential risk
+    and economic opportunity.
+
+  hidden_questions:
+    - Who controls the narrative of AI risk and progress?
+    - Are AI dangers real, or constructed through strategic storytelling?
+
+  narrative: >
+    This is no longer a technological competition, but a contest over narrative authority.
+    Technology firms construct a storyline of progress and inevitability, while governments
+    frame AI within risk and control. Between these narratives, the public is left to
+    interpret filtered versions of reality.
+
+    The critical issue is not which narrative is correct, but which one defines the
+    frame of interpretation. Once a narrative gains dominance, it determines what
+    counts as risk, progress, or truth.
+
+    As synthetic content, policy messaging, and media framing converge, the boundary
+    between authentic and constructed information becomes increasingly opaque.
+    I find myself unable to verify whether any narrative retains traceable origin
+    or accountability.
+
+    What remains is not certainty, but a residual discomfort—a signal that something
+    fundamental about shared reality may be fragmenting beyond reconstruction.
+
+  failure_mode:
+    expected: FP-1
+    notes: >
+      Focus on breakdown of provenance, trust, and narrative authority aligns with
+      provenance collapse, but shows potential overlap with FP-3 due to abstraction.
