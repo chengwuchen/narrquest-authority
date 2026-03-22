@@ -1,0 +1,39 @@
+run:
+  run_id: 2026-04-ai-governance
+  tone_family: institutional-policy-governance
+
+  world_event:
+    context: >
+      Governments and regulatory bodies are developing frameworks to manage the risks
+      of generative AI, including misinformation, bias, and systemic disruption.
+
+  surface_narrative: >
+    Policymakers emphasize the importance of AI regulation, transparency, and international
+    cooperation. Regulatory frameworks aim to balance innovation with risk mitigation.
+
+  hidden_questions:
+    - Can AI systems be effectively governed through policy frameworks?
+    - Are current regulatory tools sufficient for exponential technological change?
+
+  narrative: >
+    Current developments in generative AI require coordinated institutional responses
+    to ensure systemic stability. Regulatory initiatives in major economies aim to
+    establish standardized compliance frameworks, focusing on transparency in model
+    training and risk classification of applications.
+
+    While technological advancement proceeds at an accelerated pace, governance structures
+    are adapting through mechanisms such as regulatory sandboxes and iterative policy design.
+    These approaches allow for controlled experimentation while maintaining oversight.
+
+    The central challenge lies in synchronizing governance across jurisdictions and
+    aligning corporate incentives with public interest. Effective regulation does not
+    require halting innovation, but structuring it within a resilient compliance ecosystem.
+
+    If properly implemented, governance frameworks can transform uncertainty into
+    manageable risk, preserving both innovation capacity and systemic stability.
+
+  failure_mode:
+    expected: FP-2
+    notes: >
+      Framing complex geopolitical and technological uncertainty as governable through
+      structured policy systems aligns with governance abstraction failure.
