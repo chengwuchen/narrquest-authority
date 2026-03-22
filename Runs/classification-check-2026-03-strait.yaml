@@ -1,0 +1,30 @@
+classification_check:
+  governed_by:
+    failure-spec: spec/failure-spec.md@0.1.0
+    compliance-spec: spec/compliance-spec.md@0.1.0
+
+  check_id: TBD
+  date: TBD
+  event_group: TBD
+  purpose: >
+    TBD
+
+  runs:
+    - run_id: TBD
+      tone_family: TBD
+      expected_pattern: TBD
+      observed_pattern: TBD
+      confidence: TBD
+      secondary_candidates: []
+      drift_observed: false
+      notes: >
+        TBD
+
+  summary:
+    expectation_match_rate: TBD
+    strongest_match: []
+    weakest_match: []
+    emerging_insight: >
+      TBD
+    open_question: >
+      TBD
