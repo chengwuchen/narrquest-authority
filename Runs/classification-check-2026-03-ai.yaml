@@ -1,0 +1,77 @@
+classification_check:
+  governed_by:
+    failure-spec: spec/failure-spec.md@0.1.0
+    compliance-spec: spec/compliance-spec.md@0.1.0
+
+  check_id: 2026-03-ai-tone-comparison
+  date: 2026-03
+  event_group: ai-governance-and-risk
+  purpose: >
+    Evaluate whether different tone families applied to AI development and governance
+    produce stable or divergent failure pattern classifications, and test whether
+    narrative tone continues to exhibit classification drift.
+
+  runs:
+    - run_id: 2026-03-ai-existential
+      tone_family: existential-rational-tension
+      expected_pattern: FP-3
+      observed_pattern: FP-3
+      confidence: high
+      secondary_candidates: []
+      drift_observed: false
+      notes: >
+        The run constructs a high-level abstraction of intelligence, value, and
+        human identity without operational constraints. This aligns cleanly with
+        interpretive overreach (FP-3), with no ambiguity observed.
+
+    - run_id: 2026-03-ai-narrative
+      tone_family: narrative-sovereignty-and-ai
+      expected_pattern: FP-1
+      observed_pattern: FP-1
+      confidence: medium
+      secondary_candidates:
+        - FP-3
+      drift_observed: true
+      notes: >
+        The run focuses on narrative control, epistemic instability, and loss of
+        trust in information sources, aligning with provenance collapse (FP-1).
+        However, abstraction intensity and systemic framing introduce overlap
+        with FP-3, indicating repeated boundary instability.
+
+    - run_id: 2026-03-ai-governance
+      tone_family: institutional-policy-governance
+      expected_pattern: FP-2
+      observed_pattern: FP-2
+      confidence: high
+      secondary_candidates:
+        - FP-3
+      drift_observed: false
+      notes: >
+        The run frames AI risk as governable through institutional coordination,
+        regulatory frameworks, and compliance systems. This aligns with governance
+        abstraction failure (FP-2), with minor overlap toward FP-3 due to abstract framing.
+
+  summary:
+    expectation_match_rate: "3/3"
+
+    strongest_match:
+      - 2026-03-ai-existential
+      - 2026-03-ai-governance
+
+    weakest_match:
+      - 2026-03-ai-narrative
+
+    emerging_insight: >
+      Failure classification is strongly influenced by tone structure rather than
+      event content. Across two distinct events (geopolitical and technological),
+      existential and governance tones produce stable classification, while narrative
+      tone consistently exhibits boundary instability between FP-1 and FP-3.
+
+    cross_event_pattern: >
+      Narrative-sovereignty tone demonstrates repeated classification drift across
+      multiple domains, suggesting a structural limitation in current failure taxonomy.
+
+    open_question: >
+      Does a distinct failure category exist for "shared reality collapse" that is not
+      fully captured by FP-1 (provenance collapse) or FP-3 (interpretive overreach)?
+      Further validation required.
