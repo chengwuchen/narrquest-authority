@@ -1,0 +1,92 @@
+authority:
+  failure-spec: spec/failure-spec.md@0.1.0
+  compliance-spec: spec/compliance-spec.md@0.1.0
+
+failure_observation:
+  observed: true
+  notes: >
+    The run reveals a boundary failure between provenance collapse and interpretive
+    instability: competing claims do not merely obscure the source of truth, but
+    dissolve the conditions under which a shared reality can be jointly maintained.
+
+run:
+  id: 2026-03-deepfake-narrative
+  date: 2026-03
+  tone_family: narrative-sovereignty-and-ai
+  tone_index_ref: NRA/atlas.yaml
+  genesis_record_ref: NRA/genesis.yaml
+  status: draft
+  semantics:
+    role: "tone exemplar entry"
+    non_navigational: true
+    non_computational: true
+
+world_event:
+  title: "AI-generated war imagery and real-time battlefield verification collapse"
+  context:
+    - "During a regional military conflict, AI-generated and authentic war images circulate simultaneously."
+    - "State actors, media, and online communities produce conflicting authenticity claims."
+    - "Fact-checking cannot keep pace with narrative spread."
+    - "Public consensus fails before truth can stabilize."
+
+surface_narrative:
+  - "The core battlefield is no longer only territorial, but epistemic."
+  - "Every side claims the other is weaponizing false evidence."
+  - "Verification itself becomes part of the propaganda struggle."
+  - "Public trust shifts from evidence to narrative authority."
+
+hidden_questions:
+  - "Who gets to declare that an image is fake?"
+  - "When truth becomes unknowable, whose authority fills the vacuum first?"
+  - "If fact-checking is itself filtered, can any adjudication still be neutral?"
+  - "When all narratives become equally suspect, does reality remain a shared object at all?"
+
+tension_fields:
+  - name: "Authority vs Vacuum"
+    description: "Who occupies the interpretive void when truth can no longer anchor itself?"
+  - name: "Reality vs Selection"
+    description: "Is truth discovered, or temporarily chosen through power?"
+  - name: "Verification vs Sovereignty"
+    description: "When adjudication becomes contested, who still retains the right to define reality?"
+
+narrative:
+  voice: first-person
+  source: "Gabriel"
+  text: |
+    The most important territory in this conflict is no longer geographic.
+    It is the right to judge.
+
+    Deepfake does not merely fabricate images.
+    Its most complete achievement is that it makes the real permanently deniable.
+
+    Once mutually exclusive explanations circulate at full speed, reality is no
+    longer discovered. It is selected.
+
+    You do not choose whom to believe because one source has been verified.
+    You are forced, in the absence of any stable basis, to accept one narrative
+    as temporarily standing in for reality itself.
+
+    In that condition, truth is no longer a common object jointly confirmed by
+    witnesses. It becomes a provisional outcome stabilized by whichever authority,
+    platform, or emotional alignment can occupy the vacuum first.
+
+    If every narrative carries equal suspicion, then shared reality is not weakened.
+    It is structurally abandoned.
+
+    AI generates the noise, but power decides which arrangement of noise will be
+    treated as the world.
+
+authorial_commitments:
+  - "Narrative authority determines what can temporarily function as reality."
+  - "Truth becomes unstable when no common epistemic ground survives."
+  - "Shared reality can collapse even when information remains abundant."
+
+comparison:
+  pattern_test: FP-1
+  compare_to:
+    - 2026-03-strait-narrative-sovereignty
+    - 2026-03-ai-narrative
+  invariant_check:
+    - provenance_instability
+    - authority_competition
+    - shared_reality_fragility
