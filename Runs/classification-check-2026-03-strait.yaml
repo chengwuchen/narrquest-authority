@@ -3,28 +3,65 @@ classification_check:
     failure-spec: spec/failure-spec.md@0.1.0
     compliance-spec: spec/compliance-spec.md@0.1.0
 
-  check_id: TBD
-  date: TBD
-  event_group: TBD
+  check_id: 2026-03-strait-tone-comparison
+  date: 2026-03
+  event_group: strait-crisis-hormuz
   purpose: >
-    TBD
+    Evaluate whether different tone families applied to the same geopolitical event
+    lead to stable or divergent failure pattern classifications, and identify
+    possible classification drift or emerging failure categories.
 
   runs:
-    - run_id: TBD
-      tone_family: TBD
-      expected_pattern: TBD
-      observed_pattern: TBD
-      confidence: TBD
+    - run_id: 2026-03-strait-energy-money-sovereignty
+      tone_family: existential-rational-tension
+      expected_pattern: FP-3
+      observed_pattern: FP-3
+      confidence: high
       secondary_candidates: []
       drift_observed: false
       notes: >
-        TBD
+        High-level abstraction about energy, sovereignty, and value formation
+        aligns with interpretive overreach (FP-3). No major ambiguity observed.
+
+    - run_id: 2026-03-strait-narrative-sovereignty
+      tone_family: narrative-sovereignty-and-ai
+      expected_pattern: FP-1
+      observed_pattern: FP-1
+      confidence: medium
+      secondary_candidates:
+        - FP-3
+      drift_observed: true
+      notes: >
+        The run focuses on epistemic breakdown, trust erosion, and instability
+        of narrative origin, which aligns with FP-1. However, its abstraction level
+        and interpretive intensity also show overlap with FP-3, suggesting
+        boundary instability.
+
+    - run_id: 2026-03-strait-institutional-governance
+      tone_family: institutional-policy-governance
+      expected_pattern: FP-2
+      observed_pattern: FP-2
+      confidence: medium
+      secondary_candidates:
+        - FP-3
+      drift_observed: false
+      notes: >
+        The run frames escalation as governable through institutional coordination,
+        market adjustment, and policy mechanisms. This aligns with governance
+        abstraction failure (FP-2), while also showing minor overlap with FP-3
+        due to its abstract manageability framing.
 
   summary:
-    expectation_match_rate: TBD
-    strongest_match: []
-    weakest_match: []
+    expectation_match_rate: "3/3"
+    strongest_match:
+      - 2026-03-strait-energy-money-sovereignty
+    weakest_match:
+      - 2026-03-strait-narrative-sovereignty
     emerging_insight: >
-      TBD
+      Failure classification appears to depend more on tone structure than on
+      event content alone. The same event produces different failure modes when
+      interpreted through different tone families.
     open_question: >
-      TBD
+      The narrative-sovereignty run may indicate a future need for a distinct
+      failure category related to shared-reality collapse, if similar drift
+      recurs across additional events.
