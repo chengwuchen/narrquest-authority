@@ -24,3 +24,17 @@ runs:
       - interpretation
       - assumptions
       - falsifiability
+
+  - id: 2026-03-strait-energy-money-sovereignty
+    failure_observed: true
+    failure_tags:
+      - interpretation
+      - assumptions
+      - falsifiability
+
+  - id: 2026-03-strait-narrative-sovereignty
+    failure_observed: true
+    failure_tags:
+      - authenticity
+      - provenance
+      - verification
