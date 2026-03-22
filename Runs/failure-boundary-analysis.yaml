@@ -3,42 +3,53 @@ failure_boundary_analysis:
     failure-spec: spec/failure-spec.md@0.1.0
     compliance-spec: spec/compliance-spec.md@0.1.0
 
-  analysis_id: FBA-2026-03-tone-boundary
+  analysis_id: FBA-2026-03-tone-boundary-v2
   date: 2026-03
+
   scope: >
-    Cross-event analysis of failure pattern boundaries using two event groups:
+    Cross-event analysis of failure pattern boundaries across three event groups:
     (1) Strait of Hormuz escalation
-    (2) AI governance and generative AI risk discourse
+    (2) AI value / intelligence discourse
+    (3) Deepfake-induced epistemic collapse
 
   objective: >
-    Determine whether existing failure patterns (FP-1, FP-2, FP-3) sufficiently
-    capture observed behavior across tone families, or whether a structural gap
-    exists requiring extension of the taxonomy.
+    Determine whether FP-1 (provenance collapse), FP-2 (governance abstraction),
+    and FP-3 (interpretive overreach) sufficiently explain observed behaviors,
+    or whether classification breakdown necessitates a new failure category.
 
   data_sources:
     classification_checks:
       - classification-check-2026-03-strait.yaml
       - classification-check-2026-03-ai.yaml
+      - classification-check-2026-03-deepfake.yaml
 
     runs:
       - 2026-03-strait-energy-money-sovereignty
       - 2026-03-strait-narrative-sovereignty
       - 2026-03-strait-institutional-governance
+
       - 2026-03-ai-existential
       - 2026-03-ai-narrative
       - 2026-03-ai-governance
 
-  baseline_patterns:
+      - 2026-03-deepfake-existential
+      - 2026-03-deepfake-narrative
+      - 2026-03-deepfake-governance
+
+  base_patterns:
     FP-1:
       name: provenance-collapse
       definition: >
-        Failure arising from loss of trust in origin, authorship, or authenticity
-        of information.
+        Failure arising from loss of trust in origin, authorship, or authenticity.
+        Assumes that truth remains recoverable if provenance can be restored.
+
     FP-2:
       name: governance-abstraction
       definition: >
         Failure arising from over-reliance on institutional, policy, or system-level
-        frameworks to represent or manage complex realities.
+        framing to manage complex realities, often compressing uncertainty into
+        procedural or regulatory narratives.
+
     FP-3:
       name: interpretive-overreach
       definition: >
@@ -48,107 +59,94 @@ failure_boundary_analysis:
   observations:
 
     stability:
-      FP-3:
-        description: >
-          Stable across both events when applied to existential-rational tone.
+
       FP-2:
         description: >
-          Stable across both events when applied to institutional-policy tone.
+          Stable across all three events when applied to institutional-policy tone.
+          Governance narratives consistently reframe crises as manageable via
+          procedural, technical, or regulatory systems.
+
+      FP-3:
+        description: >
+          Stable across all three events when applied to existential-rational tone.
+          Interpretive overreach reliably manifests as ontological projection
+          beyond empirical grounding.
 
     instability:
-      narrative_tone:
+
+      FP-1:
         description: >
-          Narrative-sovereignty tone consistently exhibits classification drift.
-        evidence:
-          - event: strait
-            expected: FP-1
-            observed: FP-1
-            secondary: FP-3
-            drift: true
-          - event: ai
-            expected: FP-1
-            observed: FP-1
-            secondary: FP-3
-            drift: true
+          Unstable under narrative-sovereignty tone across events.
+          Initially classified as provenance collapse, but repeatedly shows drift
+          toward FP-3 and eventual inability to fully explain observed outputs.
 
-  boundary_analysis:
+    transition_dynamics:
 
-    FP-1_limit:
-      description: >
-        FP-1 assumes that failure originates from breakdown of traceability or
-        trust in source. However, in narrative tone runs, the issue is not merely
-        unknown origin, but the inability to establish any stable referent for truth.
-      limitation: >
-        Cannot distinguish between "uncertain source" and "collapse of shared reality".
+      stage_1_drift:
+        description: >
+          In Strait and AI events, narrative tone exhibits classification drift
+          between FP-1 and FP-3, indicating boundary ambiguity but not failure.
 
-    FP-3_limit:
-      description: >
-        FP-3 assumes failure arises from excessive abstraction or interpretive extension.
-        However, narrative tone drift is not driven by over-interpretation, but by
-        competing incompatible narratives that dissolve the reference frame itself.
-      limitation: >
-        Misclassifies epistemic collapse as abstraction error.
+      stage_2_repeat:
+        description: >
+          Repeated drift across independent events suggests systematic limitation
+          in FP-1 explanatory scope.
 
-    gap_identified:
-      description: >
-        A region exists between FP-1 and FP-3 where neither provenance collapse nor
-        interpretive overreach sufficiently explains the observed behavior.
-      characteristics:
-        - multiple narratives coexist without resolution
-        - no stable ground truth can be established
-        - trust is not only lost, but rendered structurally irrelevant
-        - observers cannot determine which interpretive frame is valid
+      stage_3_breakdown:
+        description: >
+          In Deepfake event, narrative tone produces outputs that cannot be
+          consistently classified under FP-1 or FP-3. This marks a transition
+          from drift to classification breakdown.
 
-  candidate_failure:
+  boundary_failure:
 
-    FP-4_candidate:
-      name: shared-reality-collapse
-      status: experimental
-      description: >
-        Failure arising from the inability to establish or maintain a shared
-        epistemic reference frame across competing narratives.
+    description: >
+      The failure is not due to misclassification but due to inadequacy of existing
+      pattern definitions. FP-1 assumes recoverable truth via provenance, while FP-3
+      assumes distortion through abstraction. Neither captures conditions where
+      shared reality itself cannot be jointly constructed.
 
-      distinguishing_features:
-        - not reducible to source verification (beyond FP-1)
-        - not reducible to abstraction error (beyond FP-3)
-        - characterized by structural ambiguity rather than informational uncertainty
+    trigger_conditions:
+      - high-volume synthetic media (deepfake saturation)
+      - conflicting authority claims without resolution
+      - verification lag relative to narrative propagation
+      - absence of a stable epistemic anchor
 
-      relation_to_existing:
-        overlaps_with:
-          - FP-1 (trust instability)
-          - FP-3 (interpretive ambiguity)
-        but_distinct: true
+    failure_type: structural
 
-  implications:
+  emerging_pattern:
 
-    system_level:
-      description: >
-        Current failure taxonomy may be incomplete. Narrative-driven contexts expose
-        a structural boundary where existing categories fail to maintain classification
-        stability.
+    name: shared-reality-collapse
+    provisional_id: FP-4
 
-    methodological:
-      description: >
-        Repeated cross-event drift indicates that classification instability is
-        tone-dependent rather than event-dependent.
+    description: >
+      Failure arising when multiple incompatible narratives coexist without any
+      mechanism to establish a shared epistemic frame. Reality is no longer jointly
+      confirmable, but instead becomes a temporary stabilization determined by
+      authority, selection, or alignment.
 
-  decision:
+    distinguishing_features:
+      - truth is not recoverable through better provenance
+      - instability is not caused by abstraction alone
+      - competing narratives are internally coherent but mutually exclusive
+      - no shared reference frame exists for adjudication
 
-    immediate_action: >
-      Do not modify failure-spec yet. Retain FP-4 as an experimental category pending
-      further validation.
+    separation_from_FP1: >
+      FP-1 assumes degraded provenance; FP-4 assumes collapse of shared reality itself.
 
-    next_step_options:
-      - validate FP-4 with one additional high-ambiguity event
-      - or proceed to draft FP-4 in failure-spec v0.2.0
+    separation_from_FP3: >
+      FP-3 assumes interpretive excess; FP-4 assumes structural incompatibility
+      between narratives regardless of interpretation.
 
-  summary:
+  conclusion:
 
-    key_finding: >
-      Narrative tone consistently destabilizes classification boundaries between
-      FP-1 and FP-3 across multiple events.
+    classification_status: >
+      FP-1, FP-2, and FP-3 remain valid but insufficient as a complete taxonomy.
 
-    conclusion: >
-      A structural gap exists in the current failure taxonomy, strongly suggesting
-      the presence of a new failure mode (shared-reality-collapse), though further
-      validation is recommended before formal inclusion.
+    system_state: >
+      The system has reached its explanatory boundary. Observed behavior cannot be
+      fully represented without introducing an additional failure category.
+
+    implication: >
+      FP-4 (shared-reality-collapse) is not a speculative extension, but a necessary
+      structural addition supported by cross-event empirical evidence.
