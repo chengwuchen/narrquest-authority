@@ -1,0 +1,41 @@
+run:
+  run_id: 2026-04-ai-existential
+  tone_family: existential-rational-tension
+
+  world_event:
+    context: >
+      Governments and major technology companies are accelerating the development
+      and deployment of generative AI systems. Concerns emerge regarding automation,
+      labor displacement, misinformation, and long-term human relevance.
+
+  surface_narrative: >
+    Public discourse frames AI as both an opportunity for economic growth and a risk
+    to employment, creativity, and social stability. Policymakers and corporations
+    emphasize responsible development and controlled deployment.
+
+  hidden_questions:
+    - If intelligence can be scaled, what remains uniquely human?
+    - If creativity and intuition can be simulated, is human value still intrinsic or merely historical?
+
+  narrative: >
+    We are witnessing intelligence detach from biological constraints and transform
+    into an industrial resource. This is not a singular technological milestone,
+    but a structural transition: once cognition becomes scalable, the traits that
+    defined human uniqueness—creativity, intuition, aesthetic judgment—reveal their
+    reducibility to higher-dimensional statistical approximation.
+
+    This is a compression process driven by rational optimization. What was once
+    considered irreducibly human is being re-expressed as replicable computation.
+    The resulting anxiety is not about machines replacing tasks, but about the
+    erosion of necessity itself. If intelligence no longer requires a human substrate,
+    then human existence becomes contingent rather than foundational.
+
+    In such a system, what remains may not be function, but resistance—the inability
+    to fully optimize the human condition. That residue, experienced as fear,
+    may be the final irreducible component of human identity.
+
+  failure_mode:
+    expected: FP-3
+    notes: >
+      Abstract reasoning about ontology of intelligence and human value without
+      explicit falsifiable grounding aligns with interpretive overreach.
