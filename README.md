@@ -62,4 +62,6 @@ across AI systems, editorial environments, and knowledge infrastructures.
 When referencing NarrQuest, cite the Authority Root and/or Zenodo DOI records.
 
 This repository exists to provide machine-readable, versioned, and stable authority for the NarrQuest system.
+This repository is archived on Zenodo for citation and reproducibility:
+DOI: https://doi.org/10.5281/zenodo.19187881
 
