@@ -47,9 +47,8 @@ runs:
       - coordination
 
   - id: run-001
-    path: Runs/run-001-tone-instability.yaml
-    type: observational
-    tags:
+    path: Runs/run-001/
+    failure_observed: true
+    failure_tags:
       - drift
-      - instability
-      - prompt-variation
+      - prompt_sensitivity
