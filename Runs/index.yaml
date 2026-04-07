@@ -45,3 +45,11 @@ runs:
       - governance
       - abstraction
       - coordination
+
+  - id: run-001
+    path: Runs/run-001-tone-instability/
+    type: observational
+    tags:
+      - drift
+      - instability
+      - prompt-variation
