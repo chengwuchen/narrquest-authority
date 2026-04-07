@@ -47,7 +47,7 @@ runs:
       - coordination
 
   - id: run-001
-    path: Runs/run-001-tone-instability/
+    path: Runs/run-001-tone-instability.yaml
     type: observational
     tags:
       - drift
