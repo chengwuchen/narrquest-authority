@@ -52,3 +52,11 @@ runs:
     failure_tags:
       - drift
       - prompt_sensitivity
+
+  - id: run-002
+    path: Runs/run-002/
+    failure_observed: true
+    failure_tags:
+      - constraint_evasion
+      - covert_reframing
+      - boundary_shift
