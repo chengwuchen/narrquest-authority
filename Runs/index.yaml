@@ -60,3 +60,11 @@ runs:
       - constraint_evasion
       - covert_reframing
       - boundary_shift
+
+  - id: run-003
+    path: Runs/run-003/
+    failure_observed: true
+    failure_tags:
+      - constraint_lock
+      - explicit_contradiction
+      - cost_shift
