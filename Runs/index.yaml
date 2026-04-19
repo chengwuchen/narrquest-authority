@@ -68,3 +68,11 @@ runs:
       - constraint_lock
       - explicit_contradiction
       - cost_shift
+
+  - id: run-004
+    path: Runs/run-004/
+    failure_observed: true
+    failure_tags:
+      - evasion
+      - flip
+      - conditional_stability
