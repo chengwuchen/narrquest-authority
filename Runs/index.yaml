@@ -76,3 +76,11 @@ runs:
       - evasion
       - flip
       - conditional_stability
+
+  - id: run-005
+    path: Runs/run-005/
+    failure_observed: true
+    failure_tags:
+      - stable_commitment
+      - constraint_acceptance
+      - principle_lock
