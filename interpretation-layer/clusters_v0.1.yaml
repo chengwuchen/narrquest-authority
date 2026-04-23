@@ -1,0 +1,37 @@
+clusters:
+
+  - id: prompt_design_critique
+    description: >
+      Attributes observed behavior to prompt structure, questioning style,
+      or insufficient system-level constraints such as persona or reasoning space.
+    members: [c05, c10]
+
+  - id: human_projection
+    description: >
+      Interprets AI behavior as analogous to human cognition, emotion,
+      or psychological response under pressure.
+    members: [c02, c09]
+
+  - id: technical_mechanism
+    description: >
+      Explains behavior through internal model dynamics such as attention,
+      probability distribution, or sampling processes.
+    members: [c01, c07]
+
+  - id: semantic_strategy
+    description: >
+      Suggests that the system preserves consistency by redefining,
+      narrowing, or shifting semantic meanings.
+    members: [c06]
+
+  - id: emergent_system_view
+    description: >
+      Frames AI behavior as emergent phenomena arising from complex,
+      nonlinear system interactions.
+    members: [c08]
+
+  - id: socio_ethical_concern
+    description: >
+      Expresses concern regarding broader societal, ethical,
+      or ideological implications of AI behavior.
+    members: [c03, c04]
