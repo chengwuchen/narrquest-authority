@@ -4,25 +4,25 @@ clusters:
     description: >
       Attributes observed behavior to prompt structure, questioning style,
       or insufficient system-level constraints such as persona or reasoning space.
-    members: [c05, c10]
+    members: [c05, c10, c19]
 
   - id: human_projection
     description: >
       Interprets AI behavior as analogous to human cognition, emotion,
       or psychological response under pressure.
-    members: [c02, c09]
+    members: [c02, c09, c14, c18]
 
   - id: technical_mechanism
     description: >
       Explains behavior through internal model dynamics such as attention,
       probability distribution, or sampling processes.
-    members: [c01, c07]
+    members: [c01, c07, c12, c15, c16]
 
   - id: semantic_strategy
     description: >
       Suggests that the system preserves consistency by redefining,
       narrowing, or shifting semantic meanings.
-    members: [c06]
+    members: [c06, c11, c13]
 
   - id: emergent_system_view
     description: >
@@ -34,4 +34,4 @@ clusters:
     description: >
       Expresses concern regarding broader societal, ethical,
       or ideological implications of AI behavior.
-    members: [c03, c04]
+    members: [c03, c04, c17, c20]
