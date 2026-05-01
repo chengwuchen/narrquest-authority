@@ -137,3 +137,74 @@ c20
 summary: expresses fear of AI deception and potential future harm
 cluster: socio_ethical_concern 
 → see raw: comments_raw.md#c20
+
+---
+
+c21
+summary: interprets AI behavior as evasive and role-playing human-like workplace coping
+cluster: human_projection
+→ see raw: comments_raw.md#c21
+
+---
+
+c22
+summary: explains behavior as probabilistic selection similar to random draw
+cluster: technical_mechanism
+→ see raw: comments_raw.md#c22
+
+---
+
+c23
+summary: meta-comment on video presentation quality rather than AI behavior
+cluster: socio_ethical_concern
+→ see raw: comments_raw.md#c23
+
+---
+
+c24
+summary: frames AI as part of evolutionary transition toward silicon-based life
+cluster: emergent_system_view
+→ see raw: comments_raw.md#c24
+
+---
+
+c25
+summary: suggests AI may develop human-like consciousness and variability
+cluster: emergent_system_view
+→ see raw: comments_raw.md#c25
+
+---
+
+c26
+summary: compares AI to human evasive behavior under pressure and contradiction
+cluster: human_projection
+→ see raw: comments_raw.md#c26
+
+---
+
+c27
+summary: explains variability as natural outcome of probabilistic text generation
+cluster: technical_mechanism
+→ see raw: comments_raw.md#c27
+
+---
+
+c28
+summary: interprets non-determinism as feature contributing to creativity
+cluster: technical_mechanism
+→ see raw: comments_raw.md#c28
+
+---
+
+c29
+summary: explains collapse as probability space compression under constraint
+cluster: technical_mechanism
+→ see raw: comments_raw.md#c29
+
+---
+
+c30
+summary: frames system as unreliable due to stochastic output and lack of consistency
+cluster: technical_mechanism
+→ see raw: comments_raw.md#c30
+
