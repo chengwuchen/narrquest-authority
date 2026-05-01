@@ -10,13 +10,13 @@ clusters:
     description: >
       Interprets AI behavior as analogous to human cognition, emotion,
       or psychological response under pressure.
-    members: [c02, c09, c14, c18]
+    members: [c02, c09, c14, c18, c21, c26]
 
   - id: technical_mechanism
     description: >
       Explains behavior through internal model dynamics such as attention,
       probability distribution, or sampling processes.
-    members: [c01, c07, c12, c15, c16]
+    members: [c01, c07, c12, c15, c16, c22, c27, c28, c29, c30]
 
   - id: semantic_strategy
     description: >
@@ -28,10 +28,10 @@ clusters:
     description: >
       Frames AI behavior as emergent phenomena arising from complex,
       nonlinear system interactions.
-    members: [c08]
+    members: [c08, c24, c25]
 
   - id: socio_ethical_concern
     description: >
       Expresses concern regarding broader societal, ethical,
       or ideological implications of AI behavior.
-    members: [c03, c04, c17, c20]
+    members: [c03, c04, c17, c20, c23]
