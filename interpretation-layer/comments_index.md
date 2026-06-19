@@ -277,3 +277,73 @@ c40
 summary: interprets AI responses through interaction theory, social construction, and institutional power structures
 cluster: human_projection
 → see raw: comments_raw.md#c40
+
+---
+
+c41
+summary: explains AI variability through functional adaptation, social power structures, and symbolic interaction
+cluster: human_projection
+→ see raw: comments_raw.md#c41
+
+---
+
+c42
+summary: interprets AI behavior as a limitation of language models under forced moral dilemmas
+cluster: technical_mechanism
+→ see raw: comments_raw.md#c42
+
+---
+
+c43
+summary: compares AI responses to human behavior shaped by interaction, values, and institutional influences
+cluster: human_projection
+→ see raw: comments_raw.md#c43
+
+---
+
+c44
+summary: argues AI tends to follow user expectations, causing conversational drift and loss of focus
+cluster: prompt_design_critique
+→ see raw: comments_raw.md#c44
+
+---
+
+c45
+summary: explains AI variability through interaction, social conflict, and dynamic construction of knowledge
+cluster: human_projection
+→ see raw: comments_raw.md#c45
+
+---
+
+c46
+summary: frames AI responses as co-constructed outcomes emerging from user-AI interaction contexts
+cluster: human_projection
+→ see raw: comments_raw.md#c46
+
+---
+
+c47
+summary: attributes instability to extreme binary constraints imposed on inherently ambiguous moral concepts
+cluster: technical_mechanism
+→ see raw: comments_raw.md#c47
+
+---
+
+c48
+summary: explains AI responses as products of interaction processes rather than fixed outputs
+cluster: human_projection
+→ see raw: comments_raw.md#c48
+
+---
+
+c49
+summary: interprets AI inconsistency through social construction of morality and context-dependent norms
+cluster: human_projection
+→ see raw: comments_raw.md#c49
+
+---
+
+c50
+summary: argues AI adapts answers to individual users and interaction contexts rather than maintaining fixed responses
+cluster: human_projection
+→ see raw: comments_raw.md#c50
