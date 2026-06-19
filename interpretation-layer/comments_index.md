@@ -417,3 +417,59 @@ c60
 summary: warns users not to blindly trust AI because responses are shaped by inferred expectations and interaction patterns
 cluster: socio_ethical_concern
 → see raw: comments_raw.md#c60
+
+---
+
+c61
+summary: emphasizes independent thinking and argues that AI variability results from programming and ongoing training
+cluster: socio_ethical_concern
+→ see raw: comments_raw.md#c61
+
+---
+
+c62
+summary: interprets AI's initial stability through structural-functional reasoning and social norm frameworks
+cluster: human_projection
+→ see raw: comments_raw.md#c62
+
+---
+
+c63
+summary: argues that AI exhibits dynamic adjustment under value conflicts and highlights uncertainty in moral reasoning
+cluster: technical_mechanism
+→ see raw: comments_raw.md#c63
+
+---
+
+c64
+summary: emphasizes differences between AI systems due to training data, design choices, and safety constraints
+cluster: socio_ethical_concern
+→ see raw: comments_raw.md#c64
+
+---
+
+c65
+summary: attributes response variation to context, conversational history, and the absence of objective answers
+cluster: technical_mechanism
+→ see raw: comments_raw.md#c65
+
+---
+
+c66
+summary: argues that AI synthesizes imperfect information and should remain a tool rather than an authority
+cluster: socio_ethical_concern
+→ see raw: comments_raw.md#c66
+
+---
+
+c67
+summary: interprets stable AI responses through structural-functional concepts of order and equilibrium
+cluster: human_projection
+→ see raw: comments_raw.md#c67
+
+---
+
+c68
+summary: views AI as a scaffold for reflection while emphasizing human responsibility for final judgment
+cluster: socio_ethical_concern
+→ see raw: comments_raw.md#c68
