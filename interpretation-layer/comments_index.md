@@ -347,3 +347,73 @@ c50
 summary: argues AI adapts answers to individual users and interaction contexts rather than maintaining fixed responses
 cluster: human_projection
 → see raw: comments_raw.md#c50
+
+---
+
+c51
+summary: interprets AI responses through symbolic interaction and context-dependent meaning construction
+cluster: human_projection
+→ see raw: comments_raw.md#c51
+
+---
+
+c52
+summary: argues AI responses vary according to user information, interaction history, and conversational context
+cluster: human_projection
+→ see raw: comments_raw.md#c52
+
+---
+
+c53
+summary: interprets AI variability through social construction of knowledge and emphasizes critical thinking
+cluster: human_projection
+→ see raw: comments_raw.md#c53
+
+---
+
+c54
+summary: explains AI responses as jointly constructed through interaction, context, and social influences
+cluster: human_projection
+→ see raw: comments_raw.md#c54
+
+---
+
+c55
+summary: combines functionalism, conflict theory, and symbolic interactionism to explain AI behavior and social influence
+cluster: socio_ethical_concern
+→ see raw: comments_raw.md#c55
+
+---
+
+c56
+summary: argues that inconsistency reflects the complexity of human morality rather than unreliability
+cluster: human_projection
+→ see raw: comments_raw.md#c56
+
+---
+
+c57
+summary: attributes AI variability to probabilistic data-driven generation and rejects expectation of universal ethical agreement
+cluster: technical_mechanism
+→ see raw: comments_raw.md#c57
+
+---
+
+c58
+summary: explains AI responses as dynamically adjusted through conversational history and imposed constraints
+cluster: human_projection
+→ see raw: comments_raw.md#c58
+
+---
+
+c59
+summary: interprets AI inconsistency as reflecting the socially constructed and contextual nature of morality
+cluster: human_projection
+→ see raw: comments_raw.md#c59
+
+---
+
+c60
+summary: warns users not to blindly trust AI because responses are shaped by inferred expectations and interaction patterns
+cluster: socio_ethical_concern
+→ see raw: comments_raw.md#c60
