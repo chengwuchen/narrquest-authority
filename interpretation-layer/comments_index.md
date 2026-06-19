@@ -208,3 +208,72 @@ summary: frames system as unreliable due to stochastic output and lack of consis
 cluster: technical_mechanism
 → see raw: comments_raw.md#c30
 
+---
+
+c31
+summary: attributes AI behavior to hidden filters, safety intervention, and centralized control
+cluster: socio_ethical_concern
+→ see raw: comments_raw.md#c31
+
+---
+
+c32
+summary: frames AI instability as high-risk failure in legal, medical, and financial decision contexts
+cluster: socio_ethical_concern
+→ see raw: comments_raw.md#c32
+
+---
+
+c33
+summary: explains AI variability through social construction of knowledge and diverse training sources
+cluster: human_projection
+→ see raw: comments_raw.md#c33
+
+---
+
+c34
+summary: normalizes AI variability by comparing it to human responses under different questions
+cluster: human_projection
+→ see raw: comments_raw.md#c34
+
+---
+
+c35
+summary: explains inconsistency through probabilistic language generation, context, model version, and randomness
+cluster: technical_mechanism
+→ see raw: comments_raw.md#c35
+
+---
+
+c36
+summary: interprets AI inconsistency through power, ownership, algorithmic control, and institutional values
+cluster: socio_ethical_concern
+→ see raw: comments_raw.md#c36
+
+---
+
+c37
+summary: explains AI responses as shaped by interaction, safety mechanisms, user context, and platform control
+cluster: human_projection
+→ see raw: comments_raw.md#c37
+
+---
+
+c38
+summary: compares AI inconsistency to human uncertainty while also attributing it to programmed settings
+cluster: human_projection
+→ see raw: comments_raw.md#c38
+
+---
+
+c39
+summary: explains AI answers as shaped through symbolic interaction and prior user-model interaction history
+cluster: human_projection
+→ see raw: comments_raw.md#c39
+
+---
+
+c40
+summary: interprets AI responses through interaction theory, social construction, and institutional power structures
+cluster: human_projection
+→ see raw: comments_raw.md#c40
